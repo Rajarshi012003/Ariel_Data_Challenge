@@ -1,0 +1,60 @@
+# Training configuration for Ariel Data Challenge 2024
+
+# Data parameters
+data:
+  batch_size: 2
+  num_workers: 4
+  val_ratio: 0.2
+  apply_preprocessing: true
+
+# JitterNet parameters
+jnet:
+  train: true
+  spatial_features: 32
+  hidden_channels: [32, 64, 128, 256]
+  max_displacement: 10
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  epochs: 50
+
+# PhySNet MAE parameters (pretraining)
+physnet_mae:
+  train: true
+  img_size: 32
+  patch_size: 4
+  embed_dim: 192
+  depth: 12
+  num_heads: 3
+  decoder_embed_dim: 128
+  decoder_depth: 4
+  decoder_num_heads: 4
+  mask_ratio: 0.75
+  learning_rate: 0.0001
+  weight_decay: 0.01
+  epochs: 50
+
+# PhySNet parameters
+physnet:
+  train: true
+  use_pretrained: true
+  temporal: true
+  use_spectral_conv: true
+  use_physics_attn: true
+  noise_level: 0.1
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  epochs: 50
+
+# Bayesian ResNet parameters
+bayesian_resnet:
+  train: true
+  in_channels: 32
+  n_wavelengths: 283
+  hidden_channels: [64, 128, 256, 128, 64]
+  dropout_p: 0.2
+  use_template_attention: true
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  epochs: 100
+  continuity_weight: 0.001
+  calibrate_uncertainties: true 

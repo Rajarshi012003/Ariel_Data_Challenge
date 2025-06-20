@@ -1,0 +1,23 @@
+# Inference configuration for Ariel Data Challenge 2024
+
+# Model paths (relative to models_dir)
+models:
+  jnet: "tcn_jnet_best.pth"
+  physnet: "physnet_best.pth"
+  bayesian_resnet: "bayesian_resnet_best.pth"
+
+# Inference parameters
+inference:
+  mode: "test"  # "test" or "val"
+  val_size: 20  # Number of validation samples to use (if mode="val")
+  mc_samples: 10  # Number of Monte Carlo samples
+  mc_dropout: true  # Whether to use MC dropout
+  apply_spectral_prior: true  # Whether to apply spectral smoothness prior
+  scale_uncertainties: true  # Whether to scale uncertainties
+  uncertainty_scale_factor: 1.2  # Scaling factor for uncertainties
+
+# Evaluation parameters (used only if mode="val")
+evaluation:
+  naive_mean: 0.5  # Mean from train set
+  naive_sigma: 0.25  # Standard deviation from train set
+  sigma_true: 0.05  # True standard deviation 
