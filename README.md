@@ -1,4 +1,4 @@
-# 🌌 **Spectre.AI** — AI-Driven Pipeline for Exoplanet Atmospheric Spectra Extraction
+# 🌌 **Spectr.AI** — AI-Driven Pipeline for Exoplanet Atmospheric Spectra Extraction
 
 > A modular, physics-informed machine learning framework developed for the **ESA Ariel Data Challenge 2024**, enabling accurate reconstruction of exoplanet spectra with robust uncertainty quantification.
 
