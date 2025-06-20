@@ -38,11 +38,17 @@ Our solution is a **modular, physics-informed machine learning pipeline** design
 ## ✨ Key Features
 
 ✅ **End-to-end ML Pipeline**
+
 ✅ **Temporal Convolutional Networks for jitter correction**
+
 ✅ **Physics-guided U-Net (PhySNet) for noise removal**
+
 ✅ **Bayesian ResNet-1D for spectral extraction**
+
 ✅ **Aleatoric + Epistemic uncertainty modeling**
+
 ✅ **Transfer learning with masked autoencoding (Ti-MAE)**
+
 ✅ **GPU-accelerated and modular design**
 
 ---
