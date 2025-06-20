@@ -1,6 +1,7 @@
 # 🌌 **Spectre.AI** — AI-Driven Pipeline for Exoplanet Atmospheric Spectra Extraction
 
 > A modular, physics-informed machine learning framework developed for the **ESA Ariel Data Challenge 2024**, enabling accurate reconstruction of exoplanet spectra with robust uncertainty quantification.
+
 > **Challenge**: Extract exoplanet atmospheric spectra from simulated telescope data
 > **Host**: European Space Agency ([ESA Ariel Mission](https://www.esa.int/Science_Exploration/Space_Science/Ariel/Ariel_Data_Challenges))
 > **Focus**: Machine learning pipeline for infrared spectroscopic data
