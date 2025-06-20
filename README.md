@@ -54,11 +54,11 @@ Our solution is a **modular, physics-informed machine learning pipeline** design
 ├── configs/                # YAML configuration files
 ├── scripts/                # Training & inference scripts
 ├── src/                    # Core source code
-│   ├── preprocessing/
-│   ├── jitter_correction/
-│   ├── denoising/
-│   ├── spectral_extraction/
-│   ├── uncertainty/
+│   ├── preprocessing.py
+│   ├── jitter_correction.py
+│   ├── denoising.py
+│   ├── spectral_extraction.py
+│   ├── uncertainty.py
 │   └── pipeline.py
 ├── main.py                 # Full pipeline runner
 ├── requirements.txt
