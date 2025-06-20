@@ -6,8 +6,6 @@
 
 > **Host**: European Space Agency ([ESA Ariel Mission](https://www.esa.int/Science_Exploration/Space_Science/Ariel/Ariel_Data_Challenges))
 
-> **Focus**: Machine learning pipeline for infrared spectroscopic data
-
 ---
 
 ## 🚀 Overview
