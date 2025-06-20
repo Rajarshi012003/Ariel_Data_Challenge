@@ -1,9 +1,5 @@
 # 🌌 Ariel Data Challenge 2024 – Solution Repository
 
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/ESA_logo.svg/2560px-ESA_logo.svg.png" alt="ESA Logo" width="200"/>
-</p>
-
 > **Challenge**: Extract exoplanet atmospheric spectra from simulated telescope data
 > **Host**: European Space Agency ([ESA Ariel Mission](https://www.esa.int/Science_Exploration/Space_Science/Ariel/Ariel_Data_Challenges))
 > **Focus**: Machine learning pipeline for infrared spectroscopic data
