@@ -189,7 +189,7 @@ Higher GLL scores indicate better predictive accuracy and uncertainty calibratio
 
 ## 🏆 Results
 
-> **Validation GLL Score**: `[score]`
+> **Validation GLL Score**: `0.6820`
 > Our approach demonstrates reliable spectral reconstruction with calibrated uncertainties, placing it among top-tier solutions.
 
 ---
