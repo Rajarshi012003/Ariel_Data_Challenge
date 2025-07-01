@@ -194,12 +194,6 @@ Higher GLL scores indicate better predictive accuracy and uncertainty calibratio
 
 ---
 
-## 📜 License
-
-\[Insert license here, e.g., MIT, Apache 2.0]
-
----
-
 ## 🙏 Acknowledgments
 
 * **ESA** – European Space Agency
